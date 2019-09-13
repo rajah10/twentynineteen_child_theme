@@ -1,0 +1,16 @@
+.site-header{
+  background-color: $bg_color;
+
+  .site-branding{
+    h1{
+      font-weight: $bold;
+      font-style: italic;
+    }
+
+    .site-description{
+      font-size: 0.5em;
+      color: darken($bg_color, 80);
+    }
+  } // site-branding
+
+} // site-header 
